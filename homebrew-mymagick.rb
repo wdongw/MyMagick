@@ -7,9 +7,10 @@ class HomebrewMymagick < Formula
   revision 2
   head "https://github.com/ImageMagick/ImageMagick.git", branch: "main"
 
-  #bottle do
-  #  sha256 ventura:       "48de548d4977fc226c982ca03b9d6ad8001b47d8dc142b49fdca69333bc4ad82"
-  #end
+  bottle do
+    root_url："https://github.com/wdongw/homebrew-MyMagick/releases/download/x11"
+    sha256 ventura:       "c5892f0c7b179d2187891c81bd2b548120423d892a78b93d0bbc80b3376032c1"
+  end
   
   depends_on "pkg-config" => :build
   depends_on "fontconfig"

@@ -1,7 +1,7 @@
 class HomebrewMymagick < Formula
   desc "Tools and libraries to manipulate images in many formats, with X11 support"
   homepage "https://imagemagick.org/index.php"
-  url "https://github.com/wdongw/homebrew-MyMagick/releases/download/x11/ImageMagick_7.11-38.tar.xz"
+  url "https://github.com/wdongw/homebrew-MyMagick/releases/download/x11/ImageMagick-7.1.1-38.tar.xz"
   sha256 "48de548d4977fc226c982ca03b9d6ad8001b47d8dc142b49fdca69333bc4ad82"
   license "ImageMagick"
   revision 2

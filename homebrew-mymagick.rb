@@ -8,7 +8,7 @@ class HomebrewMymagick < Formula
   head "https://github.com/ImageMagick/ImageMagick.git", branch: "main"
 
   bottle do
-    root_url："https://github.com/wdongw/homebrew-MyMagick/releases/download/x11"
+    root_url: "https://github.com/wdongw/homebrew-MyMagick/releases/download/x11"
     sha256 ventura:       "c5892f0c7b179d2187891c81bd2b548120423d892a78b93d0bbc80b3376032c1"
   end
   

@@ -10,18 +10,18 @@
 
 [ImageMagick®](https://imagemagick.org/) is a free and [open-source](https://imagemagick.org/script/license.php) software suite, used for editing and manipulating digital images. It can be used to create, edit, compose, or convert bitmap images, and supports a wide range of file [formats](https://imagemagick.org/script/formats.php), including JPEG, PNG, GIF, TIFF, and PDF.
 
-### Purpose of this Fork
+## Purpose of this Fork
 
 HomeBrew remove the X display support, which makes it inconvenient to display images. 
 Here is the fork takes it back.
 A pre-compiled version was published as a release, which was compiled under OSX Sequoia for AMD64 Arch. No further version will be given. 
 
- **brew install wdongw/mymagick/homebrew-mymagick
+ **brew install wdongw/mymagick/homebrew-mymagick**
 
 If the HEAD version is required, just let homebrew to download it.  
- **brew install --HEAD wdongw/mymagick/homebrew-mymagick
+ **brew install --HEAD wdongw/mymagick/homebrew-mymagick**
 
-###Hereinbelow is the Official message.
+# Hereinbelow is the Official message.
 
 ## What is ImageMagick?
 

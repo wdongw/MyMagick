@@ -15,10 +15,12 @@
 HomeBrew remove the X display support, which makes it inconvenient to display images. 
 Here is the fork takes it back.
 A pre-compiled version was published as a release, which was compiled under OSX Sequoia for AMD64 Arch. No further version will be given. 
+Install command:
 
  **brew install wdongw/mymagick/homebrew-mymagick**
 
-If the HEAD version is required, just let homebrew to download it.  
+If the HEAD version is required, just let homebrew to download and compile/install it from official repository:
+
  **brew install --HEAD wdongw/mymagick/homebrew-mymagick**
 
 # Hereinbelow is the Official message.

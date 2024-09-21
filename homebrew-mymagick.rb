@@ -1,14 +1,14 @@
 class HomebrewMymagick < Formula
   desc "Tools and libraries to manipulate images in many formats, with X11 support"
   homepage "https://imagemagick.org/index.php"
-  url "https://github.com/wdongw/homebrew-MyMagick/releases/download/x11/imagemagick_7.11-38.tar.gz"
-  sha256 "c5892f0c7b179d2187891c81bd2b548120423d892a78b93d0bbc80b3376032c1"
+  url "https://github.com/wdongw/homebrew-MyMagick/releases/download/x11/ImageMagick_7.11-38.tar.xz"
+  sha256 "48de548d4977fc226c982ca03b9d6ad8001b47d8dc142b49fdca69333bc4ad82"
   license "ImageMagick"
   revision 2
   head "https://github.com/ImageMagick/ImageMagick.git", branch: "main"
 
   #bottle do
-  #  sha256 ventura:       "c5892f0c7b179d2187891c81bd2b548120423d892a78b93d0bbc80b3376032c1"
+  #  sha256 ventura:       "48de548d4977fc226c982ca03b9d6ad8001b47d8dc142b49fdca69333bc4ad82"
   #end
   
   depends_on "pkg-config" => :build

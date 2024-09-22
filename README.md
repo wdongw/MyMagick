@@ -17,11 +17,23 @@ Here is the fork takes it back.
 A pre-compiled version was published as a release, which was compiled under OSX Sequoia for AMD64 Arch. No further version will be given. 
 You can download the binary package, or homebrew is recommended for package management:
 
-**brew install wdongw/mymagick/homebrew-mymagick**
+Install Binary Package from homebrew bottle:
+  **brew install wdongw/mymagick/homebrew-mymagick**
+
+Install Build from Source by Homebrew:
+  **brew install -s wdongw/mymagick/homebrew-mymagick**
 
 HEAD version is recommended, just let homebrew to download it and compile/install:
+  **brew install --HEAD wdongw/mymagick/homebrew-mymagick**
+So an uptodate version of ImageMagick is builded from source, and X display support is there.
 
- **brew install --HEAD wdongw/mymagick/homebrew-mymagick**
+## Reminder for myself
+
+To create a bottle for this fork, run the following command:
+  **brew install --build-bottle wdongw/mymagick/homebrew-mymagick**
+  **brew bottle wdongw/mymagick/homebrew-mymagick**
+
+Then upload the bottle package and update the rb file with the new bottle information.
 
 # Hereinbelow is the Official message. 
 

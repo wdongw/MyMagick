@@ -20,11 +20,11 @@ You can download the binary package, or homebrew is recommended for package mana
 Install Binary Package from homebrew bottle:<br>
   **brew install wdongw/mymagick/homebrew-mymagick**
 
-Install Build from Source by Homebrew:<br>>
+Install Build from Source by Homebrew:<br>
   **brew install -s wdongw/mymagick/homebrew-mymagick**
 
-HEAD version is recommended, just let homebrew to download it and compile/install:<br>>
-  **brew install --HEAD wdongw/mymagick/homebrew-mymagick**<br>>
+HEAD version is recommended, just let homebrew to download it and compile/install:<br>
+  **brew install --HEAD wdongw/mymagick/homebrew-mymagick**<br>
 So an uptodate version of ImageMagick is builded from source, and X display support is there.
 
 ## Reminder for myself

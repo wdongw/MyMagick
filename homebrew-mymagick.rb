@@ -9,7 +9,7 @@ class HomebrewMymagick < Formula
 
   bottle do
     root_url "https://github.com/wdongw/homebrew-MyMagick/releases/download/x11"
-    sha256 ventura:       "dfe21e6eaa647c54410b267ff5eccb13d4b11bb4ee8509dd3bc4dde4768b9a27"
+    sha256 sequoia: "34f3c52fcfcd42c5b92a6d9f9990247de173c68744c46b9efbc7e6360b0922f4"
   end
   
   depends_on "pkg-config" => :build

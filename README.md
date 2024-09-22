@@ -25,7 +25,7 @@ Install Build from Source by Homebrew:<br>
 
 HEAD version is recommended, just let homebrew to download it and compile/install:<br>
   **brew install --HEAD wdongw/mymagick/homebrew-mymagick**<br>
-So an uptodate version of ImageMagick is builded from source, and X display support is there.
+Uptodate version of ImageMagick is builded from source, and X display support is there.
 
 ## Reminder for myself
 
